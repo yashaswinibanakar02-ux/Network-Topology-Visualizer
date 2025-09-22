@@ -1,0 +1,11 @@
+{
+    "devices": ["R1", "R2", "R3", "Switch1", "PC1", "PC2"],
+    "connections": [
+      ["R1", "R2", 10],
+      ["R2", "R3", 5],
+      ["R1", "Switch1", 2],
+      ["Switch1", "PC1", 1],
+      ["Switch1", "PC2", 1]
+    ]
+  }
+  
